@@ -1,0 +1,45 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.icon-lock {
+    /* Add your icon styling here (e.g., background-image or font icon) */
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: calc(100% - 30px);
+    display: block;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background: linear-gradient(to right, #8e44ad, #c0392b);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.signup-link{
+    text-align: center;
+    margin-top: 20px;
+}
